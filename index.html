@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div class="case">
+
+            <div class="screen">
+            0
+            </div>
+
+            <div class="buttons">
+
+                <div class="row">
+                    <button class="key"onclick="uploadtoscreen('7') ">7</button>
+                    <button class="key"onclick="uploadtoscreen('8') ">8</button>
+                    <button class="key"onclick="uploadtoscreen('9') ">9</button>
+                    <button class="key"onclick="uploadtoscreen('%') ">/</button>
+                </div>
+        
+        
+                <!-- Row 2 -->
+        
+                <div class="row">
+                    <button class="key"onclick="uploadtoscreen('4') ">4</button>
+                    <button class="key"onclick="uploadtoscreen('5') ">5</button>
+                    <button class="key"onclick="uploadtoscreen('6') ">6</button>
+                    <button class="key"onclick="uploadtoscreen('X') ">X</button>
+        
+        
+        
+                </div>
+        
+        
+                <!-- Row 3 -->
+                <div class="row">
+                    <button class="key"onclick="uploadtoscreen('1') ">1</button>
+                    <button class="key"onclick="uploadtoscreen('2') ">2</button>
+                    <button class="key"onclick="uploadtoscreen('3') ">3</button>
+                    <button class="key"onclick="uploadtoscreen('-') ">-</button>
+                </div>
+        
+    
+        
+                <!-- Row 4 -->
+        
+                <div class="row">
+                    <button class="key"onclick="uploadtoscreen('0') ">0</button>
+                    <button class="key clear"onclick="clearScreen()">clr</button>
+                    <button class="key equal"onclick="splitInput()">=</button>
+                    <button class="key"onclick="uploadtoscreen('+') ">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
